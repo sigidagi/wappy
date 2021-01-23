@@ -1,0 +1,15 @@
+[path]
+project = "/opt/wappy/"
+certificates = "/opt/wappy/certificates/"
+log = "/opt/wappy/logs/"
+
+[certs]
+ca_crt = "ca.crt"
+client_crt = "client.crt"
+client_key = "client.key"
+skip = true 
+
+[backend]
+network_id = "123456"
+host = "localhost"
+port = 8888
